@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 int main() {
-  int n;
-  printf("Nhap so n skibididididi:");
-  scanf("%d",&n);
+    int n;
+    scanf("%d",&n);
   if (n%2==0){
-    printf("n la so chan");
+    printf("chan");
   }else {
-    printf("n la so le");
+    printf("le");
   }
   return 0;
 }
