@@ -4,9 +4,9 @@ int main() {
     int n;
     scanf("%d",&n);
   if (n%2==0){
-    printf("CHAN\n");
+    printf("chan");
   }else {
-    printf("LE\n");
+    printf("le");
   }
   return 0;
 }
