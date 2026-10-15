@@ -2,16 +2,19 @@
 
 int main() {
   int a, b, c;
-
-    printf("Nhap a, b, c: ");
     scanf("%d %d %d", &a, &b, &c);
 
-    if (a >= b && a >= c) {
-        printf("a la so lon nhat");
-    } else if (b >= a && b >= c) {
-        printf("b la so lon nhat");
-    } else {
-        printf("c la so lon nhat");
+    int max = a;
+
+    if (b > max) {
+        max = b;
     }
+
+    if (c > max) {
+        max = c;
+    }
+
+    printf("%d", max);
+
   return 0;
 }
