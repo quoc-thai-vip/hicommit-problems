@@ -1,13 +1,16 @@
-// HICOMMIT TEMPLATE FOR JAVA
 import java.io.*;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        /*
-            Your code goes here. Happy coding!
-        */
-
-    }
+int n;
+  scanf("%d",&n);
+  if ( n >0 && n%2==0){
+      printf("YES");
+  }
+  else{
+      printf("NO");
+  }
+  }
 }
