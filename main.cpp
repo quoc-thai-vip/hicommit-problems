@@ -1,15 +1,16 @@
-// HICOMMIT TEMPLATE FOR C++
 #include <bits/stdc++.h>
 
 using namespace std;
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+   int A,B,SUM2;
+  scanf("%d",&A);
+  scanf("%d",&B);
+  SUM2 = A+B;
+  printf("%d",SUM2);
 
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+    
+  return 0;
 }
